@@ -1,0 +1,234 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+/* Background Image */
+body {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url(./picture/bg1.jpg) no-repeat ;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+/* Main Container (Center & Spacing Fix) */
+.main-container {
+    max-width: 1200px; /* Fixed width for proper spacing */
+    margin: 0 auto; /* Center horizontally */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px; /* Add side spacing */
+}
+
+/* Social Media Icons */
+.icon-container {
+    display: flex;
+    gap: 10px;
+}
+
+/* Icons Styling */
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+/* Title & Logo Centering */
+.title-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.logo img {
+    width: 200px;
+    height: auto;
+}
+
+/* Heading */
+.head {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Services Line (Properly Aligned) */
+.SER {
+    font-size: 14px;
+    color: #666;
+    margin-top: 5px;
+}
+
+/* Student Portal Button */
+.stdportal button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: 1px solid #007bff;
+    background-color: white;
+    color: #007bff;
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.stdportal button:hover {
+    background-color: #007bff;
+    color: white;
+}
+.navbar {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid #eee;
+    padding: 10px 0;
+}
+.navbar ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+.navbar ul li {
+    padding: 10px 20px;
+    border-right: 1px solid #eee;
+}
+.navbar ul li:last-child {
+    border-right: none;
+}
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+    color: #007bff;
+}
+.navbar ul li.active a {
+    color: #6cc211;
+    font-weight: bold;}
+
+
+
+/* Form Container */
+.container {
+    
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    margin: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Heading Styling */
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* Form Layout */
+.form-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 15px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+/* Form Group */
+.form-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+li{
+    padding: 4px;
+    margin-left: 50px;
+}
+
+/* Labels Styling */
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff; /* Blue color */
+    margin-bottom: 5px;
+}
+
+/* Input & Select Box Styling */
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #6cc211; /* Green Border */
+    border-radius: 5px;
+    background: white;
+    cursor: pointer;
+}
+
+/* Full-width fields */
+.form-group input{
+    width: 100%;
+    margin-bottom: 10px;
+
+}
+.form-group select {
+    width: auto;
+    margin-bottom: 10px;
+}
+.robort{
+    margin-left: 50px;
+}
+
+/* Submit Button */
+button {
+    width: 90%;
+    padding: 10px;
+    background: #5083b9;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    font-size: 16px;
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 9px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #25394e;
+}
+.adcard{
+    margin: 10px 400px;
+}
+
+.one1{
+
+    margin: 20px 100px;
+} 
+ 
